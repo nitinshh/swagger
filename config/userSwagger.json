@@ -1,0 +1,21 @@
+{
+    "swagger":"2.0",
+    "info":{
+        "title":"API",
+        "description":"User project",
+        "version":"1.0"
+    },
+    "producer":["application/json"],
+    "basePath":"/",
+    "securityDefinitions":{
+        "Bearer":{
+            "type":"apiKey",
+            "name":"authorization",
+            "in":"header"
+        }
+    },
+    "path":{
+
+    }
+}
+
